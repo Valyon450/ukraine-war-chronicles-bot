@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "UkraineWarChronicles_Bot": {
+      "commandName": "Project"
+    },
+    "Docker": {
+      "commandName": "Docker"
+    }
+  }
+}
