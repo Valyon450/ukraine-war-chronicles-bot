@@ -218,7 +218,7 @@ namespace UkraineWarChronicles_Bot
 
                 //Console.WriteLine(News.GetText());
 
-                await botClient.SendTextMessageAsync(message.Chat.Id, $"{News.GetTitle()}");
+                //await botClient.SendTextMessageAsync(message.Chat.Id, $"{News.GetTitle()}");
                 //await botClient.SendTextMessageAsync(message.Chat.Id, $"{News.GetTitle()} \n \n Дізнатись більше:");
 
                 await botClient.SendTextMessageAsync(message.Chat.Id, URL1);
