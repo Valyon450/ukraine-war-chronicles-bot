@@ -213,8 +213,8 @@ namespace UkraineWarChronicles_Bot
                 string URL1 = $"https://novynarnia.com/hronika-oborony-ukrayiny-den-{Day}/";
                 string URL2 = $"https://www.radiosvoboda.org/z/2735/{YearOfDate}/{MonthOfDate}/{DayOfDate}";
                 
-                NewsClient client = new NewsClient();
-                NewsOfDay News = client.GetNewsByDayAsync(Day.ToString()).Result;
+                //NewsClient client = new NewsClient();
+                //NewsOfDay News = client.GetNewsByDayAsync(Day.ToString()).Result;
 
                 //Console.WriteLine(News.GetText());
 
