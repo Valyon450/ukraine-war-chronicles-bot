@@ -43,8 +43,7 @@ namespace UkraineWarChronicles_Bot
         {
             BotClient.StartReceiving(HandlerUpdateAsync, HandlerError, ReceiverOptions, CancellationToken);
             var botMe = await BotClient.GetMeAsync();
-            Console.WriteLine($"Бот {botMe.Username} почав працювати");
-            Console.ReadKey();
+            Console.WriteLine($"Бот {botMe.Username} почав працювати");            
         }
 
         private Task HandlerError(ITelegramBotClient botClient, Exception exception, CancellationToken CancellationToken)

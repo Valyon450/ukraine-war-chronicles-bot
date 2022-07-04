@@ -2,4 +2,7 @@
 
 UkraineWarChroniclesBot UkraineWarChroniclesBot = new UkraineWarChroniclesBot();
 UkraineWarChroniclesBot.Start();
-while (true) ;
+while (true)
+{
+
+}

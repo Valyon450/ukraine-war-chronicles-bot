@@ -12,7 +12,7 @@ namespace UkraineWarChronicles_Bot.Clients
             var request = new HttpRequestMessage
             {
                 Method = HttpMethod.Get,
-                RequestUri = new Uri($"https://ukraine-war-chronicles-appi.herokuapp.com/search/?q=%D0%92%D1%82%D1%80%D0%B0%D1%82%D0%B8%20%D0%B2%D0%BE%D1%80%D0%BE%D0%B3%D0%B0%20%7C%20{Day}%20%D0%B4%D0%B5%D0%BD%D1%8C%20%D0%B2%D1%96%D0%B8%CC%86%D0%BD%D0%B8%20%D0%B2%20%D0%A3%D0%BA%D1%80%D0%B0%D1%96%CC%88%D0%BD%D1%96"),
+                RequestUri = new Uri($"https://ukraine-war-chronicles-appi.herokuapp.com/LossesEnemyOfDay?Day={Day}"),
                 Headers =
                 {
                     { "X-RapidAPI-Key", "cb4ca4fab2msha46f4c173b3d8edp16c072jsn288ade238ef8" },
